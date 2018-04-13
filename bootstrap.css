@@ -39,8 +39,8 @@
     color: indigo; margin:10px;background-color: #bccddd; 
     align-content: right;
 }
-.about {font-family: fantasy
-  line-height: 1.15;margin: 15px;
+.img {margin: 15px; border-bottom-color: brown}
+.about {font-family: 'Open Sans', sans-serif; font-size: 15; line-height: 1.15;margin: 15px;
   -webkit-text-size-adjust: 60%;
   -ms-text-size-adjust: 60%;
   -ms-overflow-style: scrollbar;
@@ -81,7 +81,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #f4ebeb;
+  background-color: #ffffff;
 }
 
 [tabindex="-1"]:focus {
