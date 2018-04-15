@@ -34,9 +34,7 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-.background {
-        background-image: url("background.png");width: 200px; height: 250px;
-}
+
 .title {
     color: indigo; margin:10px;background-color: #bccddd; 
     align-content: right;
@@ -57,7 +55,9 @@
 *::after {
   box-sizing: border-box;
 }
-
+.background {
+        background-image: url("background.png");width: auto; height: auto;
+}
 html {
   font-family: cursive;
   line-height: 1.15;
